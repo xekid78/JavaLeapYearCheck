@@ -18,7 +18,7 @@ public class LeapYearCheck {
 				System.out.println(year + "年はうるう年ではありません。");
 			}
 		} catch (InputMismatchException e) {
-			System.out.println("西暦年ではありません。");
+			System.out.println("入力エラー：西暦年ではありません。");
 		}
 	}
 
